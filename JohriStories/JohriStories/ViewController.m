@@ -2,8 +2,8 @@
 //  ViewController.m
 //  JohriStories
 //
-//  Created by Akshat Agrawal on 7/31/14.
-//  Copyright (c) 2014 Akshat Agrawal. All rights reserved.
+//  Created by Patrick Dong on 8/1/14.
+//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
 #import "ViewController.h"

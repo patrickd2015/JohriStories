@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+               BlueprintIdentifier = "CDB49039198C0C04001C6DD3"
                BuildableName = "JohriStories.app"
                BlueprintName = "JohriStories"
                ReferencedContainer = "container:JohriStories.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC49B1EC198B6B110031ACD9"
+               BlueprintIdentifier = "CDB4905D198C0C04001C6DD3"
                BuildableName = "JohriStoriesTests.xctest"
                BlueprintName = "JohriStoriesTests"
                ReferencedContainer = "container:JohriStories.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+            BlueprintIdentifier = "CDB49039198C0C04001C6DD3"
             BuildableName = "JohriStories.app"
             BlueprintName = "JohriStories"
             ReferencedContainer = "container:JohriStories.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+            BlueprintIdentifier = "CDB49039198C0C04001C6DD3"
             BuildableName = "JohriStories.app"
             BlueprintName = "JohriStories"
             ReferencedContainer = "container:JohriStories.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+            BlueprintIdentifier = "CDB49039198C0C04001C6DD3"
             BuildableName = "JohriStories.app"
             BlueprintName = "JohriStories"
             ReferencedContainer = "container:JohriStories.xcodeproj">
