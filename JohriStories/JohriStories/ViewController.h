@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *name;
+@property (strong, nonatomic) IBOutlet UITextView *content;
+@property (strong, nonatomic) NSString *nameText;
+@property (strong, nonatomic) NSString *contentText;
+
+
 @end

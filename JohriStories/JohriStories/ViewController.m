@@ -17,6 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.content.text = self.contentText;
+    self.name.text = self.nameText;
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

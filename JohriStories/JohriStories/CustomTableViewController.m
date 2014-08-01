@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Patrick Dong. All rights reserved.
 //
 
+#import "ViewController.h"
 #import "CustomTableViewController.h"
 #import "CustomTable.h"
 
@@ -16,6 +17,7 @@
 @implementation CustomTableViewController{
     NSArray *storyNames;
     NSArray *storyImages;
+    NSArray *storyFiles;
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -31,11 +33,9 @@
 {
     [super viewDidLoad];
     
-    [self.tableView setContentInset:UIEdgeInsetsMake(10, self.tableView.contentInset.left,
-                                                     self.tableView.contentInset.bottom, self.tableView.contentInset.right)];
-    
-    storyNames = [NSArray arrayWithObjects:@"Abhishek 1",@"Abhishek 2",@"Abhishek 3", nil];
+    storyNames = [NSArray arrayWithObjects:@"Samosas", @"#aj2013", @"A Peter Pounding", nil];
     storyImages = [NSArray arrayWithObjects:@"Abhishek_1.png", @"Abhishek_2.png", @"Abhishek_3.png", nil];
+    storyFiles = [NSArray arrayWithObjects:@"samosas", @"aj2013", @"peterpounding", nil];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -73,6 +73,21 @@
     cell.thumbnailImageView.image = [UIImage imageNamed:[storyImages
                                                          objectAtIndex:indexPath.row]];
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    ViewController *controller = segue.destinationViewController;
+    CustomTable *source = (CustomTable *)sender;
+    
+    controller.nameText = source.nameLabel.text;
+    
+    NSInteger index = [storyNames indexOfObject:source.nameLabel.text];
+    NSString *path = [[NSBundle mainBundle] pathForResource:[storyFiles objectAtIndex:index] ofType:@"txt"];
+    controller.contentText = [NSString stringWithContentsOfFile:path
+                                                       encoding:NSUTF8StringEncoding
+                                                          error:NULL];
+    
 }
 
 /*
