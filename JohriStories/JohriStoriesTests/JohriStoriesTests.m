@@ -1,18 +1,18 @@
 //
-//  Johri_StoriesTests.m
-//  Johri StoriesTests
+//  JohriStoriesTests.m
+//  JohriStoriesTests
 //
-//  Created by Patrick Dong on 7/31/14.
-//
+//  Created by Akshat Agrawal on 7/31/14.
+//  Copyright (c) 2014 Akshat Agrawal. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface Johri_StoriesTests : XCTestCase
+@interface JohriStoriesTests : XCTestCase
 
 @end
 
-@implementation Johri_StoriesTests
+@implementation JohriStoriesTests
 
 - (void)setUp
 {

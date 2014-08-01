@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDB48FFA198B5A24001C6DD3"
-               BuildableName = "Johri Stories.app"
-               BlueprintName = "Johri Stories"
-               ReferencedContainer = "container:Johri Stories.xcodeproj">
+               BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+               BuildableName = "JohriStories.app"
+               BlueprintName = "JohriStories"
+               ReferencedContainer = "container:JohriStories.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDB49015198B5A24001C6DD3"
-               BuildableName = "Johri StoriesTests.xctest"
-               BlueprintName = "Johri StoriesTests"
-               ReferencedContainer = "container:Johri Stories.xcodeproj">
+               BlueprintIdentifier = "AC49B1EC198B6B110031ACD9"
+               BuildableName = "JohriStoriesTests.xctest"
+               BlueprintName = "JohriStoriesTests"
+               ReferencedContainer = "container:JohriStories.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDB48FFA198B5A24001C6DD3"
-            BuildableName = "Johri Stories.app"
-            BlueprintName = "Johri Stories"
-            ReferencedContainer = "container:Johri Stories.xcodeproj">
+            BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+            BuildableName = "JohriStories.app"
+            BlueprintName = "JohriStories"
+            ReferencedContainer = "container:JohriStories.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDB48FFA198B5A24001C6DD3"
-            BuildableName = "Johri Stories.app"
-            BlueprintName = "Johri Stories"
-            ReferencedContainer = "container:Johri Stories.xcodeproj">
+            BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+            BuildableName = "JohriStories.app"
+            BlueprintName = "JohriStories"
+            ReferencedContainer = "container:JohriStories.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDB48FFA198B5A24001C6DD3"
-            BuildableName = "Johri Stories.app"
-            BlueprintName = "Johri Stories"
-            ReferencedContainer = "container:Johri Stories.xcodeproj">
+            BlueprintIdentifier = "AC49B1CB198B6B100031ACD9"
+            BuildableName = "JohriStories.app"
+            BlueprintName = "JohriStories"
+            ReferencedContainer = "container:JohriStories.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

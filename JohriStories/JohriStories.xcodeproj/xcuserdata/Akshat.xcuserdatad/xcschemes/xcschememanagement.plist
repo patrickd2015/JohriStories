@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Johri Stories.xcscheme</key>
+		<key>JohriStories.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CDB48FFA198B5A24001C6DD3</key>
+		<key>AC49B1CB198B6B100031ACD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CDB49015198B5A24001C6DD3</key>
+		<key>AC49B1EC198B6B110031ACD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Johri Stories
+//  JohriStories
 //
-//  Created by Patrick Dong on 7/31/14.
-//
+//  Created by Akshat Agrawal on 7/31/14.
+//  Copyright (c) 2014 Akshat Agrawal. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
