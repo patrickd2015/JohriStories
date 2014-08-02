@@ -18,6 +18,7 @@
     NSArray *storyNames;
     NSArray *storyImages;
     NSArray *storyFiles;
+    BOOL recipeChecked[20];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -62,17 +63,32 @@
 {
     static NSString *CellIdentifier = @"CustomTableCell";
     CustomTable *cell = (CustomTable *)[tableView
-                                                dequeueReusableCellWithIdentifier:CellIdentifier];
+                                        dequeueReusableCellWithIdentifier:CellIdentifier];
     // Configure the cell...
     if (cell == nil) {
         cell = [[CustomTable alloc] initWithStyle:UITableViewCellStyleDefault
-                                      reuseIdentifier:CellIdentifier];
+                                  reuseIdentifier:CellIdentifier];
     }
     // Display recipe in the table cell
     cell.nameLabel.text = [storyNames objectAtIndex:indexPath.row];
     cell.thumbnailImageView.image = [UIImage imageNamed:[storyImages
                                                          objectAtIndex:indexPath.row]];
+    
+    if (recipeChecked[indexPath.row]) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    } else {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+    
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    recipeChecked[indexPath.row] = YES;
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
