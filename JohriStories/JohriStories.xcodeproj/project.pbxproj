@@ -9,8 +9,35 @@
 /* Begin PBXBuildFile section */
 		ACA343D6198C58DF0074070E /* aj2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACA343D5198C58DF0074070E /* aj2013.txt */; };
 		ACA343D8198C58F30074070E /* peterpounding.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACA343D7198C58F30074070E /* peterpounding.txt */; };
-		ACA343DA198C59010074070E /* christianthing.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACA343D9198C59010074070E /* christianthing.txt */; };
 		ACE7D4D6198C56060050CFE7 /* samosas.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACE7D4D5198C56060050CFE7 /* samosas.txt */; };
+		CD4C7CB4198DC19200987D80 /* entrada.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CB3198DC19200987D80 /* entrada.txt */; };
+		CD4C7CB6198DC58E00987D80 /* fishcake.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CB5198DC58E00987D80 /* fishcake.txt */; };
+		CD4C7CB8198DC5BA00987D80 /* megusta.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CB7198DC5BA00987D80 /* megusta.txt */; };
+		CD4C7CBA198DC5E400987D80 /* superlatives.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CB9198DC5E400987D80 /* superlatives.txt */; };
+		CD4C7CBC198DC60B00987D80 /* washbag.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CBB198DC60B00987D80 /* washbag.txt */; };
+		CD4C7CBE198DC65300987D80 /* hungry.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CBD198DC65300987D80 /* hungry.txt */; };
+		CD4C7CC0198DC67000987D80 /* bittergrams.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CBF198DC67000987D80 /* bittergrams.txt */; };
+		CD4C7CC6198DC6C800987D80 /* blackhole.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CC5198DC6C800987D80 /* blackhole.txt */; };
+		CD4C7CC8198DC6E600987D80 /* christian.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CC7198DC6E600987D80 /* christian.txt */; };
+		CD4C7CCA198DC70B00987D80 /* exodus.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CC9198DC70B00987D80 /* exodus.txt */; };
+		CDB25EC1198DC8A900C0AF39 /* johriday.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC0198DC8A900C0AF39 /* johriday.txt */; };
+		CDB25EC3198DC8C900C0AF39 /* Abhishek_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC2198DC8C900C0AF39 /* Abhishek_1.png */; };
+		CDB25ED8198DC8D200C0AF39 /* Abhishek_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC4198DC8D200C0AF39 /* Abhishek_2.png */; };
+		CDB25ED9198DC8D200C0AF39 /* Abhishek_3.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC5198DC8D200C0AF39 /* Abhishek_3.png */; };
+		CDB25EDA198DC8D200C0AF39 /* Abhishek_4.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC6198DC8D200C0AF39 /* Abhishek_4.png */; };
+		CDB25EDB198DC8D200C0AF39 /* Abhishek_5.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC7198DC8D200C0AF39 /* Abhishek_5.png */; };
+		CDB25EDC198DC8D200C0AF39 /* Abhishek_6.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC8198DC8D200C0AF39 /* Abhishek_6.png */; };
+		CDB25EDD198DC8D200C0AF39 /* Abhishek_7.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25EC9198DC8D200C0AF39 /* Abhishek_7.png */; };
+		CDB25EDE198DC8D200C0AF39 /* Abhishek_8.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ECA198DC8D200C0AF39 /* Abhishek_8.png */; };
+		CDB25EDF198DC8D200C0AF39 /* Abhishek_9.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ECB198DC8D200C0AF39 /* Abhishek_9.png */; };
+		CDB25EE0198DC8D200C0AF39 /* Abhishek_10.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ECC198DC8D200C0AF39 /* Abhishek_10.png */; };
+		CDB25EE1198DC8D200C0AF39 /* Abhishek_11.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ECD198DC8D200C0AF39 /* Abhishek_11.png */; };
+		CDB25EE2198DC8D200C0AF39 /* Abhishek_12.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ECE198DC8D200C0AF39 /* Abhishek_12.png */; };
+		CDB25EE3198DC8D200C0AF39 /* Abhishek_13.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ECF198DC8D200C0AF39 /* Abhishek_13.png */; };
+		CDB25EE4198DC8D200C0AF39 /* Abhishek_14.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED0198DC8D200C0AF39 /* Abhishek_14.png */; };
+		CDB25EE5198DC8D200C0AF39 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED2198DC8D200C0AF39 /* Main_iPhone.storyboard */; };
+		CDB25EE6198DC8D200C0AF39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED5198DC8D200C0AF39 /* InfoPlist.strings */; };
+		CDB25EE7198DC8D200C0AF39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED7198DC8D200C0AF39 /* Images.xcassets */; };
 		CDB4903E198C0C04001C6DD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4903D198C0C04001C6DD3 /* Foundation.framework */; };
 		CDB49040198C0C04001C6DD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4903F198C0C04001C6DD3 /* CoreGraphics.framework */; };
 		CDB49042198C0C04001C6DD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB49041198C0C04001C6DD3 /* UIKit.framework */; };
@@ -42,8 +69,35 @@
 /* Begin PBXFileReference section */
 		ACA343D5198C58DF0074070E /* aj2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aj2013.txt; sourceTree = "<group>"; };
 		ACA343D7198C58F30074070E /* peterpounding.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = peterpounding.txt; sourceTree = "<group>"; };
-		ACA343D9198C59010074070E /* christianthing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = christianthing.txt; sourceTree = "<group>"; };
 		ACE7D4D5198C56060050CFE7 /* samosas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = samosas.txt; sourceTree = "<group>"; };
+		CD4C7CB3198DC19200987D80 /* entrada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entrada.txt; sourceTree = "<group>"; };
+		CD4C7CB5198DC58E00987D80 /* fishcake.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fishcake.txt; sourceTree = "<group>"; };
+		CD4C7CB7198DC5BA00987D80 /* megusta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = megusta.txt; sourceTree = "<group>"; };
+		CD4C7CB9198DC5E400987D80 /* superlatives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = superlatives.txt; sourceTree = "<group>"; };
+		CD4C7CBB198DC60B00987D80 /* washbag.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = washbag.txt; sourceTree = "<group>"; };
+		CD4C7CBD198DC65300987D80 /* hungry.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hungry.txt; sourceTree = "<group>"; };
+		CD4C7CBF198DC67000987D80 /* bittergrams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bittergrams.txt; sourceTree = "<group>"; };
+		CD4C7CC5198DC6C800987D80 /* blackhole.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blackhole.txt; sourceTree = "<group>"; };
+		CD4C7CC7198DC6E600987D80 /* christian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = christian.txt; sourceTree = "<group>"; };
+		CD4C7CC9198DC70B00987D80 /* exodus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exodus.txt; sourceTree = "<group>"; };
+		CDB25EC0198DC8A900C0AF39 /* johriday.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = johriday.txt; sourceTree = "<group>"; };
+		CDB25EC2198DC8C900C0AF39 /* Abhishek_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_1.png; sourceTree = "<group>"; };
+		CDB25EC4198DC8D200C0AF39 /* Abhishek_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_2.png; sourceTree = "<group>"; };
+		CDB25EC5198DC8D200C0AF39 /* Abhishek_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_3.png; sourceTree = "<group>"; };
+		CDB25EC6198DC8D200C0AF39 /* Abhishek_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_4.png; sourceTree = "<group>"; };
+		CDB25EC7198DC8D200C0AF39 /* Abhishek_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_5.png; sourceTree = "<group>"; };
+		CDB25EC8198DC8D200C0AF39 /* Abhishek_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_6.png; sourceTree = "<group>"; };
+		CDB25EC9198DC8D200C0AF39 /* Abhishek_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_7.png; sourceTree = "<group>"; };
+		CDB25ECA198DC8D200C0AF39 /* Abhishek_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_8.png; sourceTree = "<group>"; };
+		CDB25ECB198DC8D200C0AF39 /* Abhishek_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_9.png; sourceTree = "<group>"; };
+		CDB25ECC198DC8D200C0AF39 /* Abhishek_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_10.png; sourceTree = "<group>"; };
+		CDB25ECD198DC8D200C0AF39 /* Abhishek_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_11.png; sourceTree = "<group>"; };
+		CDB25ECE198DC8D200C0AF39 /* Abhishek_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_12.png; sourceTree = "<group>"; };
+		CDB25ECF198DC8D200C0AF39 /* Abhishek_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_13.png; sourceTree = "<group>"; };
+		CDB25ED0198DC8D200C0AF39 /* Abhishek_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_14.png; sourceTree = "<group>"; };
+		CDB25ED3198DC8D200C0AF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CDB25ED6198DC8D200C0AF39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CDB25ED7198DC8D200C0AF39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDB4903A198C0C04001C6DD3 /* JohriStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohriStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB4903D198C0C04001C6DD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDB4903F198C0C04001C6DD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,13 +147,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CDB25ED1198DC8D200C0AF39 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CDB25ED2198DC8D200C0AF39 /* Main_iPhone.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		CDB25ED4198DC8D200C0AF39 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CDB25ED5198DC8D200C0AF39 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		CDB49031198C0C04001C6DD3 = {
 			isa = PBXGroup;
 			children = (
 				CDB49043198C0C04001C6DD3 /* JohriStories */,
-				CDB49065198C0C04001C6DD3 /* JohriStoriesTests */,
 				CDB4903C198C0C04001C6DD3 /* Frameworks */,
-				CDB4903B198C0C04001C6DD3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +178,7 @@
 				CDB4905E198C0C04001C6DD3 /* JohriStoriesTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CDB4903C198C0C04001C6DD3 /* Frameworks */ = {
@@ -126,10 +195,38 @@
 		CDB49043198C0C04001C6DD3 /* JohriStories */ = {
 			isa = PBXGroup;
 			children = (
+				CDB25EC4198DC8D200C0AF39 /* Abhishek_2.png */,
+				CDB25EC5198DC8D200C0AF39 /* Abhishek_3.png */,
+				CDB25EC6198DC8D200C0AF39 /* Abhishek_4.png */,
+				CDB25EC7198DC8D200C0AF39 /* Abhishek_5.png */,
+				CDB25EC8198DC8D200C0AF39 /* Abhishek_6.png */,
+				CDB25EC9198DC8D200C0AF39 /* Abhishek_7.png */,
+				CDB25ECA198DC8D200C0AF39 /* Abhishek_8.png */,
+				CDB25ECB198DC8D200C0AF39 /* Abhishek_9.png */,
+				CDB25ECC198DC8D200C0AF39 /* Abhishek_10.png */,
+				CDB25ECD198DC8D200C0AF39 /* Abhishek_11.png */,
+				CDB25ECE198DC8D200C0AF39 /* Abhishek_12.png */,
+				CDB25ECF198DC8D200C0AF39 /* Abhishek_13.png */,
+				CDB25ED0198DC8D200C0AF39 /* Abhishek_14.png */,
+				CDB25ED1198DC8D200C0AF39 /* Base.lproj */,
+				CDB25ED4198DC8D200C0AF39 /* en.lproj */,
+				CDB25ED7198DC8D200C0AF39 /* Images.xcassets */,
+				CDB25EC2198DC8C900C0AF39 /* Abhishek_1.png */,
 				ACE7D4D5198C56060050CFE7 /* samosas.txt */,
 				ACA343D5198C58DF0074070E /* aj2013.txt */,
 				ACA343D7198C58F30074070E /* peterpounding.txt */,
-				ACA343D9198C59010074070E /* christianthing.txt */,
+				CD4C7CB3198DC19200987D80 /* entrada.txt */,
+				CD4C7CB5198DC58E00987D80 /* fishcake.txt */,
+				CD4C7CB7198DC5BA00987D80 /* megusta.txt */,
+				CD4C7CB9198DC5E400987D80 /* superlatives.txt */,
+				CD4C7CBB198DC60B00987D80 /* washbag.txt */,
+				CD4C7CBD198DC65300987D80 /* hungry.txt */,
+				CD4C7CBF198DC67000987D80 /* bittergrams.txt */,
+				CD4C7CC5198DC6C800987D80 /* blackhole.txt */,
+				CD4C7CC7198DC6E600987D80 /* christian.txt */,
+				CD4C7CC9198DC70B00987D80 /* exodus.txt */,
+				CDB4903B198C0C04001C6DD3 /* Products */,
+				CDB49065198C0C04001C6DD3 /* JohriStoriesTests */,
 				CDB4904C198C0C04001C6DD3 /* AppDelegate.h */,
 				CDB4904D198C0C04001C6DD3 /* AppDelegate.m */,
 				CDB4904F198C0C04001C6DD3 /* Main_iPhone.storyboard */,
@@ -141,6 +238,7 @@
 				CDB49056198C0C04001C6DD3 /* ViewController.m */,
 				CDB49058198C0C04001C6DD3 /* Images.xcassets */,
 				CDB49044198C0C04001C6DD3 /* Supporting Files */,
+				CDB25EC0198DC8A900C0AF39 /* johriday.txt */,
 			);
 			path = JohriStories;
 			sourceTree = "<group>";
@@ -163,7 +261,7 @@
 				CDB49066198C0C04001C6DD3 /* Supporting Files */,
 			);
 			path = JohriStoriesTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		CDB49066198C0C04001C6DD3 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -250,13 +348,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB25EDB198DC8D200C0AF39 /* Abhishek_5.png in Resources */,
+				CD4C7CC8198DC6E600987D80 /* christian.txt in Resources */,
+				CDB25EE3198DC8D200C0AF39 /* Abhishek_13.png in Resources */,
+				CDB25EE4198DC8D200C0AF39 /* Abhishek_14.png in Resources */,
+				CD4C7CB6198DC58E00987D80 /* fishcake.txt in Resources */,
+				CD4C7CBA198DC5E400987D80 /* superlatives.txt in Resources */,
+				CD4C7CB8198DC5BA00987D80 /* megusta.txt in Resources */,
 				ACE7D4D6198C56060050CFE7 /* samosas.txt in Resources */,
-				ACA343DA198C59010074070E /* christianthing.txt in Resources */,
+				CDB25EE1198DC8D200C0AF39 /* Abhishek_11.png in Resources */,
+				CD4C7CCA198DC70B00987D80 /* exodus.txt in Resources */,
 				ACA343D8198C58F30074070E /* peterpounding.txt in Resources */,
+				CDB25EE7198DC8D200C0AF39 /* Images.xcassets in Resources */,
+				CDB25EDE198DC8D200C0AF39 /* Abhishek_8.png in Resources */,
+				CDB25EDA198DC8D200C0AF39 /* Abhishek_4.png in Resources */,
+				CD4C7CC6198DC6C800987D80 /* blackhole.txt in Resources */,
 				ACA343D6198C58DF0074070E /* aj2013.txt in Resources */,
+				CD4C7CB4198DC19200987D80 /* entrada.txt in Resources */,
+				CDB25EC3198DC8C900C0AF39 /* Abhishek_1.png in Resources */,
 				CDB49059198C0C04001C6DD3 /* Images.xcassets in Resources */,
+				CDB25ED8198DC8D200C0AF39 /* Abhishek_2.png in Resources */,
+				CDB25EDC198DC8D200C0AF39 /* Abhishek_6.png in Resources */,
+				CDB25EE5198DC8D200C0AF39 /* Main_iPhone.storyboard in Resources */,
+				CD4C7CBC198DC60B00987D80 /* washbag.txt in Resources */,
+				CD4C7CBE198DC65300987D80 /* hungry.txt in Resources */,
 				CDB49051198C0C04001C6DD3 /* Main_iPhone.storyboard in Resources */,
+				CDB25EDF198DC8D200C0AF39 /* Abhishek_9.png in Resources */,
 				CDB49048198C0C04001C6DD3 /* InfoPlist.strings in Resources */,
+				CD4C7CC0198DC67000987D80 /* bittergrams.txt in Resources */,
+				CDB25EE0198DC8D200C0AF39 /* Abhishek_10.png in Resources */,
+				CDB25EE2198DC8D200C0AF39 /* Abhishek_12.png in Resources */,
+				CDB25ED9198DC8D200C0AF39 /* Abhishek_3.png in Resources */,
+				CDB25EDD198DC8D200C0AF39 /* Abhishek_7.png in Resources */,
+				CDB25EE6198DC8D200C0AF39 /* InfoPlist.strings in Resources */,
+				CDB25EC1198DC8A900C0AF39 /* johriday.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +427,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CDB25ED2198DC8D200C0AF39 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB25ED3198DC8D200C0AF39 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CDB25ED5198DC8D200C0AF39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB25ED6198DC8D200C0AF39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		CDB49046198C0C04001C6DD3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

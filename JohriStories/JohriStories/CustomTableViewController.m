@@ -18,7 +18,6 @@
     NSArray *storyNames;
     NSArray *storyImages;
     NSArray *storyFiles;
-    BOOL recipeChecked[20];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -34,9 +33,9 @@
 {
     [super viewDidLoad];
     
-    storyNames = [NSArray arrayWithObjects:@"Samosas", @"#aj2013", @"A Peter Pounding", nil];
-    storyImages = [NSArray arrayWithObjects:@"Abhishek_1.png", @"Abhishek_2.png", @"Abhishek_3.png", nil];
-    storyFiles = [NSArray arrayWithObjects:@"samosas", @"aj2013", @"peterpounding", nil];
+    storyNames = [NSArray arrayWithObjects:@"Entrada: An Introduction to Mystical Mayhem", @"A Peter Pounding", @"Fishcake - El Pastel de Pescado", @"Como Me Gusta", @"8th Grade Superlatives", @"Samosas", @"WashBag", @"#aj2013", @"Hungry",@"Bittergrams",@"Abhishek Johri Day", @"The Gravity of a Black Hole",@"It’s a Christian Thing",@"Exodus: A Culmination of a Journey", nil];
+    storyImages = [NSArray arrayWithObjects:@"Abhishek_1.png", @"Abhishek_2.png", @"Abhishek_3.png",@"Abhishek_4.png",@"Abhishek_5.png",@"Abhishek_6.png",@"Abhishek_7.png",@"Abhishek_8.png",@"Abhishek_9.png",@"Abhishek_10.png",@"Abhishek_11.png",@"Abhishek_12.png",@"Abhishek_13.png",@"Abhishek_14.png", nil];
+    storyFiles = [NSArray arrayWithObjects:@"entrada", @"peterpounding", @"fishcake", @"megusta",@"superlatives",@"samosas",@"washbag", @"aj2013",@"hungry",@"bittergrams",@"johriday", @"blackhole", @"christian", @"exodus", nil];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -74,11 +73,11 @@
     cell.thumbnailImageView.image = [UIImage imageNamed:[storyImages
                                                          objectAtIndex:indexPath.row]];
     
-//    if (recipeChecked[indexPath.row]) {
-//        cell.accessoryType = UITableViewCellAccessoryCheckmark;
-//    } else {
-//        cell.accessoryType = UITableViewCellAccessoryNone;
-//    }
+    //    if (recipeChecked[indexPath.row]) {
+    //        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    //    } else {
+    //        cell.accessoryType = UITableViewCellAccessoryNone;
+    //    }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
