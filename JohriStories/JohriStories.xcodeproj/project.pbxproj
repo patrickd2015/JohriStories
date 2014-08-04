@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2D2572198FF4A2009162C5 /* AddStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2D2571198FF4A2009162C5 /* AddStoryViewController.m */; };
 		ACA343D6198C58DF0074070E /* aj2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACA343D5198C58DF0074070E /* aj2013.txt */; };
 		ACA343D8198C58F30074070E /* peterpounding.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACA343D7198C58F30074070E /* peterpounding.txt */; };
 		ACE7D4D6198C56060050CFE7 /* samosas.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACE7D4D5198C56060050CFE7 /* samosas.txt */; };
@@ -67,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC2D2570198FF4A2009162C5 /* AddStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStoryViewController.h; sourceTree = "<group>"; };
+		AC2D2571198FF4A2009162C5 /* AddStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStoryViewController.m; sourceTree = "<group>"; };
 		ACA343D5198C58DF0074070E /* aj2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aj2013.txt; sourceTree = "<group>"; };
 		ACA343D7198C58F30074070E /* peterpounding.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = peterpounding.txt; sourceTree = "<group>"; };
 		ACE7D4D5198C56060050CFE7 /* samosas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = samosas.txt; sourceTree = "<group>"; };
@@ -232,6 +235,8 @@
 				CDB4904F198C0C04001C6DD3 /* Main_iPhone.storyboard */,
 				CDB49075198C0C80001C6DD3 /* CustomTableViewController.h */,
 				CDB49076198C0C80001C6DD3 /* CustomTableViewController.m */,
+				AC2D2570198FF4A2009162C5 /* AddStoryViewController.h */,
+				AC2D2571198FF4A2009162C5 /* AddStoryViewController.m */,
 				CDB49080198C1315001C6DD3 /* CustomTable.h */,
 				CDB49081198C1315001C6DD3 /* CustomTable.m */,
 				CDB49055198C0C04001C6DD3 /* ViewController.h */,
@@ -404,6 +409,7 @@
 				CDB49057198C0C04001C6DD3 /* ViewController.m in Sources */,
 				CDB4904E198C0C04001C6DD3 /* AppDelegate.m in Sources */,
 				CDB49082198C1315001C6DD3 /* CustomTable.m in Sources */,
+				AC2D2572198FF4A2009162C5 /* AddStoryViewController.m in Sources */,
 				CDB4904A198C0C04001C6DD3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

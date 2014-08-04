@@ -36,7 +36,7 @@
                                 <connections>
                                     <outlet property="nameLabel" destination="4JZ-v8-oMl" id="SYb-oZ-Sdp"/>
                                     <outlet property="thumbnailImageView" destination="Jry-EE-eA8" id="uyJ-Pc-lmY"/>
-                                    <segue destination="dcf-Hb-oMc" kind="push" identifier="MainCell" id="23Z-ZQ-V3g"/>
+                                    <segue destination="dcf-Hb-oMc" kind="push" identifier="toStoryView" id="23Z-ZQ-V3g"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -45,11 +45,69 @@
                             <outlet property="delegate" destination="AON-9N-qt4" id="ffs-L9-pNm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Johri Stories" id="o36-BS-J4W"/>
+                    <navigationItem key="navigationItem" title="Johri Stories" id="o36-BS-J4W">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aBA-VF-qjC">
+                            <connections>
+                                <segue destination="5Mk-sa-lKB" kind="push" identifier="toAddStoryView" id="2eA-sd-npF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kqh-0H-ZwK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="170" y="9"/>
+        </scene>
+        <!--Add Story View Controller - Create Story-->
+        <scene sceneID="Z0u-4K-jEP">
+            <objects>
+                <viewController id="5Mk-sa-lKB" customClass="AddStoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="edZ-y4-oNf"/>
+                        <viewControllerLayoutGuide type="bottom" id="slg-rJ-57Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="00a-ex-aTw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Title" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHT-tp-hWe">
+                                <rect key="frame" x="112" y="80" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Type story in here" translatesAutoresizingMaskIntoConstraints="NO" id="R1c-mr-upw">
+                                <rect key="frame" x="20" y="118" width="280" height="430"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create Story" id="ixb-ma-Cg9">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="fkk-sq-AC8">
+                            <connections>
+                                <segue destination="KNB-bV-RUs" kind="unwind" unwindAction="unwindToList:" id="stU-sw-gea"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="oZV-d2-apw">
+                            <connections>
+                                <segue destination="KNB-bV-RUs" kind="unwind" unwindAction="unwindToList:" id="Kez-PJ-D25"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelButton" destination="fkk-sq-AC8" id="2CW-82-hxd"/>
+                        <outlet property="doneButton" destination="oZV-d2-apw" id="on3-xJ-dXw"/>
+                        <outlet property="storyContent" destination="R1c-mr-upw" id="Ar8-aw-fXu"/>
+                        <outlet property="storyTitle" destination="vHT-tp-hWe" id="AxZ-js-4Up"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7b-MA-cEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="KNB-bV-RUs" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="-381"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8xB-uY-hPF">
@@ -88,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7CM-bD-XuE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="715" y="9"/>
+            <point key="canvasLocation" x="788" y="322"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c9X-1L-lI3">

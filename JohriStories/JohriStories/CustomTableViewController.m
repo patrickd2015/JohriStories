@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CustomTableViewController.h"
+#import "AddStoryViewController.h"
 #import "CustomTable.h"
 
 @interface CustomTableViewController ()
@@ -93,16 +94,36 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    ViewController *controller = segue.destinationViewController;
-    CustomTable *source = (CustomTable *)sender;
+    if([segue.identifier isEqualToString:@"toAddStoryView"])
+    {
+        
+    }
+    else
+    {
+        ViewController *controller = segue.destinationViewController;
+        CustomTable *source = (CustomTable *)sender;
+        
+        controller.nameText = source.nameLabel.text;
+        
+        NSInteger index = [storyNames indexOfObject:source.nameLabel.text];
+        NSString *path = [[NSBundle mainBundle] pathForResource:[storyFiles objectAtIndex:index] ofType:@"txt"];
+        controller.contentText = [NSString stringWithContentsOfFile:path
+                                                           encoding:NSUTF8StringEncoding
+                                                              error:NULL];
+        
+    }
     
-    controller.nameText = source.nameLabel.text;
+}
+
+- (IBAction)unwindToList:(UIStoryboardSegue *)segue
+{
+    AddStoryViewController *sender = segue.sourceViewController;
     
-    NSInteger index = [storyNames indexOfObject:source.nameLabel.text];
-    NSString *path = [[NSBundle mainBundle] pathForResource:[storyFiles objectAtIndex:index] ofType:@"txt"];
-    controller.contentText = [NSString stringWithContentsOfFile:path
-                                                       encoding:NSUTF8StringEncoding
-                                                          error:NULL];
+    if(sender.title.length > 0)
+    {
+        NSLog(@"Add to the lits of stories whoo");
+    }
+    
     
 }
 
