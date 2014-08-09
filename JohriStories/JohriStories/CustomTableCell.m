@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Patrick Dong. All rights reserved.
 //
 
-#import "CustomTable.h"
+#import "CustomTableCell.h"
 
-@implementation CustomTable
+@implementation CustomTableCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

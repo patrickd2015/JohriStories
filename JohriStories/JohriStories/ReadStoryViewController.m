@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ReadStoryViewController.h"
 
-@interface ViewController ()
+@interface ReadStoryViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ReadStoryViewController
 
 - (void)viewDidLoad
 {

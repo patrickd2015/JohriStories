@@ -10,6 +10,7 @@
 		AC2D2572198FF4A2009162C5 /* AddStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2D2571198FF4A2009162C5 /* AddStoryViewController.m */; };
 		ACA343D6198C58DF0074070E /* aj2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACA343D5198C58DF0074070E /* aj2013.txt */; };
 		ACA343D8198C58F30074070E /* peterpounding.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACA343D7198C58F30074070E /* peterpounding.txt */; };
+		ACE5B63019915B5A00D80A85 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5B62F19915B5A00D80A85 /* Constants.m */; };
 		ACE7D4D6198C56060050CFE7 /* samosas.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACE7D4D5198C56060050CFE7 /* samosas.txt */; };
 		CD4C7CB4198DC19200987D80 /* entrada.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CB3198DC19200987D80 /* entrada.txt */; };
 		CD4C7CB6198DC58E00987D80 /* fishcake.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7CB5198DC58E00987D80 /* fishcake.txt */; };
@@ -38,7 +39,6 @@
 		CDB25EE4198DC8D200C0AF39 /* Abhishek_14.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED0198DC8D200C0AF39 /* Abhishek_14.png */; };
 		CDB25EE5198DC8D200C0AF39 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED2198DC8D200C0AF39 /* Main_iPhone.storyboard */; };
 		CDB25EE6198DC8D200C0AF39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED5198DC8D200C0AF39 /* InfoPlist.strings */; };
-		CDB25EE7198DC8D200C0AF39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB25ED7198DC8D200C0AF39 /* Images.xcassets */; };
 		CDB4903E198C0C04001C6DD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4903D198C0C04001C6DD3 /* Foundation.framework */; };
 		CDB49040198C0C04001C6DD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4903F198C0C04001C6DD3 /* CoreGraphics.framework */; };
 		CDB49042198C0C04001C6DD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB49041198C0C04001C6DD3 /* UIKit.framework */; };
@@ -46,7 +46,7 @@
 		CDB4904A198C0C04001C6DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB49049198C0C04001C6DD3 /* main.m */; };
 		CDB4904E198C0C04001C6DD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB4904D198C0C04001C6DD3 /* AppDelegate.m */; };
 		CDB49051198C0C04001C6DD3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB4904F198C0C04001C6DD3 /* Main_iPhone.storyboard */; };
-		CDB49057198C0C04001C6DD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB49056198C0C04001C6DD3 /* ViewController.m */; };
+		CDB49057198C0C04001C6DD3 /* ReadStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB49056198C0C04001C6DD3 /* ReadStoryViewController.m */; };
 		CDB49059198C0C04001C6DD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB49058198C0C04001C6DD3 /* Images.xcassets */; };
 		CDB49060198C0C04001C6DD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4905F198C0C04001C6DD3 /* XCTest.framework */; };
 		CDB49061198C0C04001C6DD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4903D198C0C04001C6DD3 /* Foundation.framework */; };
@@ -54,7 +54,7 @@
 		CDB4906A198C0C04001C6DD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB49068198C0C04001C6DD3 /* InfoPlist.strings */; };
 		CDB4906C198C0C04001C6DD3 /* JohriStoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB4906B198C0C04001C6DD3 /* JohriStoriesTests.m */; };
 		CDB49077198C0C80001C6DD3 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB49076198C0C80001C6DD3 /* CustomTableViewController.m */; };
-		CDB49082198C1315001C6DD3 /* CustomTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB49081198C1315001C6DD3 /* CustomTable.m */; };
+		CDB49082198C1315001C6DD3 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB49081198C1315001C6DD3 /* CustomTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +72,8 @@
 		AC2D2571198FF4A2009162C5 /* AddStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStoryViewController.m; sourceTree = "<group>"; };
 		ACA343D5198C58DF0074070E /* aj2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aj2013.txt; sourceTree = "<group>"; };
 		ACA343D7198C58F30074070E /* peterpounding.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = peterpounding.txt; sourceTree = "<group>"; };
+		ACE5B62E19915B5A00D80A85 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		ACE5B62F19915B5A00D80A85 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		ACE7D4D5198C56060050CFE7 /* samosas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = samosas.txt; sourceTree = "<group>"; };
 		CD4C7CB3198DC19200987D80 /* entrada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entrada.txt; sourceTree = "<group>"; };
 		CD4C7CB5198DC58E00987D80 /* fishcake.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fishcake.txt; sourceTree = "<group>"; };
@@ -100,7 +102,6 @@
 		CDB25ED0198DC8D200C0AF39 /* Abhishek_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abhishek_14.png; sourceTree = "<group>"; };
 		CDB25ED3198DC8D200C0AF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CDB25ED6198DC8D200C0AF39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		CDB25ED7198DC8D200C0AF39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDB4903A198C0C04001C6DD3 /* JohriStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohriStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB4903D198C0C04001C6DD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDB4903F198C0C04001C6DD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,8 +113,8 @@
 		CDB4904C198C0C04001C6DD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDB4904D198C0C04001C6DD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CDB49050198C0C04001C6DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		CDB49055198C0C04001C6DD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDB49056198C0C04001C6DD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDB49055198C0C04001C6DD3 /* ReadStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadStoryViewController.h; sourceTree = "<group>"; };
+		CDB49056198C0C04001C6DD3 /* ReadStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadStoryViewController.m; sourceTree = "<group>"; };
 		CDB49058198C0C04001C6DD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDB4905E198C0C04001C6DD3 /* JohriStoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohriStoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB4905F198C0C04001C6DD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -122,8 +123,8 @@
 		CDB4906B198C0C04001C6DD3 /* JohriStoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JohriStoriesTests.m; sourceTree = "<group>"; };
 		CDB49075198C0C80001C6DD3 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
 		CDB49076198C0C80001C6DD3 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
-		CDB49080198C1315001C6DD3 /* CustomTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTable.h; sourceTree = "<group>"; };
-		CDB49081198C1315001C6DD3 /* CustomTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTable.m; sourceTree = "<group>"; };
+		CDB49080198C1315001C6DD3 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		CDB49081198C1315001C6DD3 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,9 +212,6 @@
 				CDB25ECE198DC8D200C0AF39 /* Abhishek_12.png */,
 				CDB25ECF198DC8D200C0AF39 /* Abhishek_13.png */,
 				CDB25ED0198DC8D200C0AF39 /* Abhishek_14.png */,
-				CDB25ED1198DC8D200C0AF39 /* Base.lproj */,
-				CDB25ED4198DC8D200C0AF39 /* en.lproj */,
-				CDB25ED7198DC8D200C0AF39 /* Images.xcassets */,
 				CDB25EC2198DC8C900C0AF39 /* Abhishek_1.png */,
 				ACE7D4D5198C56060050CFE7 /* samosas.txt */,
 				ACA343D5198C58DF0074070E /* aj2013.txt */,
@@ -227,23 +225,27 @@
 				CD4C7CBF198DC67000987D80 /* bittergrams.txt */,
 				CD4C7CC5198DC6C800987D80 /* blackhole.txt */,
 				CD4C7CC7198DC6E600987D80 /* christian.txt */,
+				CDB25EC0198DC8A900C0AF39 /* johriday.txt */,
 				CD4C7CC9198DC70B00987D80 /* exodus.txt */,
-				CDB4903B198C0C04001C6DD3 /* Products */,
-				CDB49065198C0C04001C6DD3 /* JohriStoriesTests */,
 				CDB4904C198C0C04001C6DD3 /* AppDelegate.h */,
 				CDB4904D198C0C04001C6DD3 /* AppDelegate.m */,
 				CDB4904F198C0C04001C6DD3 /* Main_iPhone.storyboard */,
+				ACE5B62E19915B5A00D80A85 /* Constants.h */,
+				ACE5B62F19915B5A00D80A85 /* Constants.m */,
 				CDB49075198C0C80001C6DD3 /* CustomTableViewController.h */,
 				CDB49076198C0C80001C6DD3 /* CustomTableViewController.m */,
 				AC2D2570198FF4A2009162C5 /* AddStoryViewController.h */,
 				AC2D2571198FF4A2009162C5 /* AddStoryViewController.m */,
-				CDB49080198C1315001C6DD3 /* CustomTable.h */,
-				CDB49081198C1315001C6DD3 /* CustomTable.m */,
-				CDB49055198C0C04001C6DD3 /* ViewController.h */,
-				CDB49056198C0C04001C6DD3 /* ViewController.m */,
+				CDB49080198C1315001C6DD3 /* CustomTableCell.h */,
+				CDB49081198C1315001C6DD3 /* CustomTableCell.m */,
+				CDB49055198C0C04001C6DD3 /* ReadStoryViewController.h */,
+				CDB49056198C0C04001C6DD3 /* ReadStoryViewController.m */,
 				CDB49058198C0C04001C6DD3 /* Images.xcassets */,
+				CDB25ED1198DC8D200C0AF39 /* Base.lproj */,
+				CDB25ED4198DC8D200C0AF39 /* en.lproj */,
+				CDB4903B198C0C04001C6DD3 /* Products */,
+				CDB49065198C0C04001C6DD3 /* JohriStoriesTests */,
 				CDB49044198C0C04001C6DD3 /* Supporting Files */,
-				CDB25EC0198DC8A900C0AF39 /* johriday.txt */,
 			);
 			path = JohriStories;
 			sourceTree = "<group>";
@@ -364,7 +366,6 @@
 				CDB25EE1198DC8D200C0AF39 /* Abhishek_11.png in Resources */,
 				CD4C7CCA198DC70B00987D80 /* exodus.txt in Resources */,
 				ACA343D8198C58F30074070E /* peterpounding.txt in Resources */,
-				CDB25EE7198DC8D200C0AF39 /* Images.xcassets in Resources */,
 				CDB25EDE198DC8D200C0AF39 /* Abhishek_8.png in Resources */,
 				CDB25EDA198DC8D200C0AF39 /* Abhishek_4.png in Resources */,
 				CD4C7CC6198DC6C800987D80 /* blackhole.txt in Resources */,
@@ -406,10 +407,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB49077198C0C80001C6DD3 /* CustomTableViewController.m in Sources */,
-				CDB49057198C0C04001C6DD3 /* ViewController.m in Sources */,
+				CDB49057198C0C04001C6DD3 /* ReadStoryViewController.m in Sources */,
 				CDB4904E198C0C04001C6DD3 /* AppDelegate.m in Sources */,
-				CDB49082198C1315001C6DD3 /* CustomTable.m in Sources */,
+				CDB49082198C1315001C6DD3 /* CustomTableCell.m in Sources */,
 				AC2D2572198FF4A2009162C5 /* AddStoryViewController.m in Sources */,
+				ACE5B63019915B5A00D80A85 /* Constants.m in Sources */,
 				CDB4904A198C0C04001C6DD3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

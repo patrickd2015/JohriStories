@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomTableCell" rowHeight="71" id="jjq-zP-WLb" customClass="CustomTable">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomTableCell" rowHeight="71" id="jjq-zP-WLb" customClass="CustomTableCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="71"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jjq-zP-WLb" id="etp-0d-S4a">
@@ -93,7 +93,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="oZV-d2-apw">
                             <connections>
-                                <segue destination="KNB-bV-RUs" kind="unwind" unwindAction="unwindToList:" id="Kez-PJ-D25"/>
+                                <segue destination="KNB-bV-RUs" kind="unwind" unwindAction="unwindToList:" id="4ET-Ts-kue"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -109,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="788" y="-381"/>
         </scene>
-        <!--View Controller-->
+        <!--Read Story View Controller-->
         <scene sceneID="8xB-uY-hPF">
             <objects>
-                <viewController id="dcf-Hb-oMc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="dcf-Hb-oMc" customClass="ReadStoryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SFG-oG-7uL"/>
                         <viewControllerLayoutGuide type="bottom" id="gO9-lg-0C1"/>
